@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Xilinx/project/aaa/aaa.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/Xilinx/project/aaa/aaa.srcs/sim_1/new/TestBench.v,1595929378,verilog,,,,TestBench,,,,,,,,
+D:/Xilinx/project/aaa/aaa.srcs/sources_1/new/boundary_check.v,1595928894,verilog,,D:/Xilinx/project/aaa/aaa.srcs/sources_1/new/num_rec.v,,boundary_check,,,,,,,,
+D:/Xilinx/project/aaa/aaa.srcs/sources_1/new/num_rec.v,1595947144,verilog,,D:/Xilinx/project/aaa/aaa.srcs/sources_1/new/serial_data_gen.v,,num_rec,,,,,,,,
+D:/Xilinx/project/aaa/aaa.srcs/sources_1/new/serial_data_gen.v,1595907488,verilog,,D:/Xilinx/project/aaa/aaa.srcs/sim_1/new/TestBench.v,,serial_data_gen,,,,,,,,

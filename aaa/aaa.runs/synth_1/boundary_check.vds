@@ -1,0 +1,394 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jul 28 16:42:14 2020
+# Process ID: 7848
+# Current directory: D:/Xilinx/project/aaa/aaa.runs/synth_1
+# Command line: vivado.exe -log boundary_check.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source boundary_check.tcl
+# Log file: D:/Xilinx/project/aaa/aaa.runs/synth_1/boundary_check.vds
+# Journal file: D:/Xilinx/project/aaa/aaa.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source boundary_check.tcl -notrace
+Command: synth_design -top boundary_check -part xc7s15ftgb196-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s15'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s15'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13276 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 430.773 ; gain = 99.055
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'boundary_check' [D:/Xilinx/project/aaa/aaa.srcs/sources_1/new/boundary_check.v:23]
+	Parameter ff bound to: 8'b11111111 
+	Parameter zz bound to: 8'b00000000 
+	Parameter IDLE bound to: 4'b1000 
+	Parameter CHECK_L_ST bound to: 4'b0100 
+	Parameter CHECK_R_READY bound to: 4'b0010 
+	Parameter CHECK_R_ST bound to: 4'b0001 
+	Parameter IDLE0 bound to: 4'b1000 
+	Parameter CHECK_U_ST bound to: 4'b0100 
+	Parameter CHECK_D_READY bound to: 4'b0010 
+	Parameter CHECK_D_ST bound to: 4'b0001 
+INFO: [Synth 8-6157] synthesizing module 'serial_data_gen' [D:/Xilinx/project/aaa/aaa.srcs/sources_1/new/serial_data_gen.v:21]
+INFO: [Synth 8-3876] $readmem data file 'C:/Users/92949/Documents/MATLAB/Num_hex.txt' is read successfully [D:/Xilinx/project/aaa/aaa.srcs/sources_1/new/serial_data_gen.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'serial_data_gen' (1#1) [D:/Xilinx/project/aaa/aaa.srcs/sources_1/new/serial_data_gen.v:21]
+WARNING: [Synth 8-3848] Net xy_vld in module/entity boundary_check does not have driver. [D:/Xilinx/project/aaa/aaa.srcs/sources_1/new/boundary_check.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'boundary_check' (2#1) [D:/Xilinx/project/aaa/aaa.srcs/sources_1/new/boundary_check.v:23]
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[11] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[10] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[9] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[8] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[7] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[6] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[5] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[4] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[3] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[2] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[1] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[0] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_u[11] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_u[10] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_u[9] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_u[8] driven by constant 1
+WARNING: [Synth 8-3917] design boundary_check has port y_u[7] driven by constant 1
+WARNING: [Synth 8-3917] design boundary_check has port y_u[6] driven by constant 1
+WARNING: [Synth 8-3917] design boundary_check has port y_u[5] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_u[4] driven by constant 1
+WARNING: [Synth 8-3917] design boundary_check has port y_u[3] driven by constant 1
+WARNING: [Synth 8-3917] design boundary_check has port y_u[2] driven by constant 1
+WARNING: [Synth 8-3917] design boundary_check has port y_u[1] driven by constant 1
+WARNING: [Synth 8-3917] design boundary_check has port y_u[0] driven by constant 1
+WARNING: [Synth 8-3917] design boundary_check has port y_d[11] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[10] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[9] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[8] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[7] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[6] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[5] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[4] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[3] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[2] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[1] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[0] driven by constant 0
+WARNING: [Synth 8-3331] design boundary_check has unconnected port xy_vld
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 712.672 ; gain = 380.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 712.672 ; gain = 380.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s15ftgb196-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 712.672 ; gain = 380.953
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7s15ftgb196-1
+INFO: [Synth 8-802] inferred FSM for state register 'curr_st_reg' in module 'boundary_check'
+INFO: [Synth 8-5544] ROM "curr_st" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "curr_st" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             1000 |                             1000
+              CHECK_L_ST |                             0100 |                             0100
+           CHECK_R_READY |                             0010 |                             0010
+              CHECK_R_ST |                             0001 |                             0001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'curr_st_reg' in module 'boundary_check'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1203.094 ; gain = 871.375
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |rom_serial_data_gen  |           1|    131064|
+|2     |serial_data_gen__GB1 |           1|       374|
+|3     |boundary_check__GC0  |           1|       326|
++------+---------------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     19 Bit       Adders := 1     
++---Registers : 
+	               19 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     19 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 5     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module boundary_check 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+	   5 Input      1 Bit        Muxes := 1     
+Module serial_data_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     19 Bit       Adders := 1     
++---Registers : 
+	               19 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     19 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 20 (col length:20)
+BRAMs: 20 (col length: RAMB18 20 RAMB36 10)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[11] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[10] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[9] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[8] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[7] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[6] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[5] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[4] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[3] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[2] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[1] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port line_cnt[0] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_u[11] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_u[10] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_u[9] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_u[8] driven by constant 1
+WARNING: [Synth 8-3917] design boundary_check has port y_u[7] driven by constant 1
+WARNING: [Synth 8-3917] design boundary_check has port y_u[6] driven by constant 1
+WARNING: [Synth 8-3917] design boundary_check has port y_u[5] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_u[4] driven by constant 1
+WARNING: [Synth 8-3917] design boundary_check has port y_u[3] driven by constant 1
+WARNING: [Synth 8-3917] design boundary_check has port y_u[2] driven by constant 1
+WARNING: [Synth 8-3917] design boundary_check has port y_u[1] driven by constant 1
+WARNING: [Synth 8-3917] design boundary_check has port y_u[0] driven by constant 1
+WARNING: [Synth 8-3917] design boundary_check has port y_d[11] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[10] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[9] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[8] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[7] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[6] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[5] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[4] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[3] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[2] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[1] driven by constant 0
+WARNING: [Synth 8-3917] design boundary_check has port y_d[0] driven by constant 0
+WARNING: [Synth 8-3331] design boundary_check has unconnected port xy_vld
+INFO: [Synth 8-3886] merging instance 'i_0/last_data_reg[6]' (FDP) to 'i_0/last_data_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/last_data_reg[7]' (FDP) to 'i_0/last_data_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/last_data_reg[5]' (FDP) to 'i_0/last_data_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/last_data_reg[4]' (FDP) to 'i_0/last_data_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/last_data_reg[3]' (FDP) to 'i_0/last_data_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/last_data_reg[2]' (FDP) to 'i_0/last_data_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/last_data_reg[1]' (FDP) to 'i_0/last_data_reg[0]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\last_data_reg[0] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1203.094 ; gain = 871.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++----------------+------------+---------------+----------------+
+|Module Name     | RTL Object | Depth x Width | Implemented As | 
++----------------+------------+---------------+----------------+
+|serial_data_gen | p_0_out    | 524288x8      | LUT            | 
++----------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |serial_data_gen__GB1 |           1|       141|
+|2     |boundary_check__GC0  |           1|        29|
++------+---------------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1203.094 ; gain = 871.375
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |serial_data_gen__GB1 |           1|       141|
+|2     |boundary_check__GC0  |           1|        29|
++------+---------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1203.094 ; gain = 871.375
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1203.094 ; gain = 871.375
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1203.094 ; gain = 871.375
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1203.094 ; gain = 871.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1203.094 ; gain = 871.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1203.094 ; gain = 871.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1203.094 ; gain = 871.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    14|
+|3     |LUT1   |     1|
+|4     |LUT2   |    13|
+|5     |LUT3   |     2|
+|6     |LUT4   |     1|
+|7     |LUT5   |    40|
+|8     |LUT6   |     4|
+|9     |FDCE   |    42|
+|10    |FDPE   |     3|
+|11    |IBUF   |     2|
+|12    |OBUF   |    72|
+|13    |OBUFT  |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+----------------+------+
+|      |Instance |Module          |Cells |
++------+---------+----------------+------+
+|1     |top      |                |   196|
+|2     |  s0     |serial_data_gen |   108|
++------+---------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1203.094 ; gain = 871.375
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 75 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1203.094 ; gain = 871.375
+Synthesis Optimization Complete : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1203.094 ; gain = 871.375
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1203.094 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 75 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:00:57 . Memory (MB): peak = 1203.094 ; gain = 884.383
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1203.094 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Xilinx/project/aaa/aaa.runs/synth_1/boundary_check.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file boundary_check_utilization_synth.rpt -pb boundary_check_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 28 16:43:15 2020...
